@@ -1,0 +1,42 @@
+
+// ,......LOOPS .....
+
+// for loop
+
+for(let i=0;i<10;i++)
+{
+    console.log("number"+i);
+}
+
+// while loop
+
+let i =10;
+while(i<20)
+{
+    console.log("number while"+i);
+    i+=1;
+}
+
+
+/*
+number0
+number1
+number2
+number3
+number4
+number5
+number6
+number7
+number8
+number9
+number while10
+number while11
+number while12
+number while13
+number while14
+number while15
+number while16
+number while17
+number while18
+number while19
+*/
