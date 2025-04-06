@@ -21,3 +21,16 @@ console.log(result);
 output :
    [2,  4,  6, 8,10, 12, 14 ] 
 */
+
+// filter
+/*
+The filter() method creates a new array with only the elements that pass a certain condition (the callback function returns true).
+
+It does not change the original array.
+const newArray = originalArray.filter((currentValue, index, array) {
+    // return true to keep the element, false to remove it or condition
+});
+
+*/
+let filter_result = nums.filter(function(i) { return (i%2 === 0)});
+console.log(filter_result); // [ 2, 4, 6 ]
